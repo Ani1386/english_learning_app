@@ -1,0 +1,27 @@
+name: english_learning_app
+description: "یک اپلیکیشن آموزش زبان انگلیسی با Flutter"
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.0.2  # مدیریت دیتابیس SQLite
+  path_provider: ^2.0.11  # برای مدیریت مسیرهای فایل
+  provider: ^6.0.3  # مدیریت وضعیت اپلیکیشن
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image1.png  # اضافه کردن تصاویر (در صورت نیاز)
+    - assets/image2.jpg
